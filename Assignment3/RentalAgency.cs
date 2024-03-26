@@ -2,7 +2,7 @@
 
 public class RentalAgency
 {
-    private Vehicle[] Fleet { get; set; }
+    public Vehicle[] Fleet { get; set; }
     public double TotalRevenue { get; private set; }
 
     public RentalAgency(int capacity)
